@@ -40,3 +40,20 @@
 .read-the-docs {
   color: #888;
 }
+
+
+/* 
+1.start with store , configure store by introducing reducers, single source of truth. even 2 stores are possible 
+
+2.create reducers using createslice name, initial state, reducers:{ functions(state, action) }
+
+3.export individual recuders and one mainsource reducer for store
+
+4.implement the usedispatch send values to store using reducers 
+
+5.implement the useSelector to select values from the store 
+
+
+for api calling use asyncthunk or async tasks
+1. create aysnc thunk creates an action which we can dispatch
+2. to manage the action we can use extrareducers to keep it in our state .using builder */
